@@ -1,9 +1,9 @@
 document.onkeydown = function (event) {
     var key = event.key;
-    var validKeys = /[0-9\+\-\*\/\=\.]|Backspace|Delete/; // Expresión regular para validar las teclas válidas
+    var validKeys = /[0-9\+\-\*\/\=\.]|Backspace|Delete/;
 
     if (validKeys.test(key)) {
-        event.preventDefault(); // Evita el comportamiento predeterminado de la tecla
+        event.preventDefault();
 
         if (key >= '0' && key <= '9') {
             appendNumber(parseInt(key));
