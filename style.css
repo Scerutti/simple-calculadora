@@ -1,0 +1,115 @@
+body {
+    background-color: #6c8277;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 90%;
+    overflow: hidden;
+}
+
+#calculator-container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#container {
+    margin-bottom: 20px;
+}
+
+#input {
+    margin-bottom: 10px;
+    font-size: 24px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 70px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button:active {
+    background-color: #3e8e41;
+}
+
+#theme-toggle {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+#theme-toggle img {
+    width: 30px;
+    height: 30px;
+}
+
+.dark-theme {
+    background-color: #333;
+}
+
+.dark-theme #calculator-container {
+    background-color: #444;
+}
+
+.dark-theme button {
+    background-color: #555;
+}
+
+#history-container {
+    background-color: #f2f2f2;
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 200px;
+}
+
+#history {
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+@media (max-width: 600px) {
+    #calculator-container {
+        padding: 10px;
+    }
+
+    button {
+        padding: 8px 12px;
+        font-size: 16px;
+        width: 50px;
+    }
+
+    #history-container {
+        max-height: 100px;
+    }
+}
