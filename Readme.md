@@ -28,9 +28,6 @@ Esta calculadora básica ha sido creada como proyecto personal para practicar y 
 
 Este proyecto ha sido creado con fines educativos y de práctica personal. Por lo tanto, no se aceptarán contribuciones en este momento.
 
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Puedes consultar el archivo [LICENSE](LICENSE) para obtener más información.
 
 ---
 
